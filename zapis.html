@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Записаться на консультацию</title>
+	<link rel="stylesheet" href="zapis.css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
+	
+</head>
+<body>
+	<header>
+		<div class="container">
+		<h1><svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" fill="currentColor" class="bi bi-pc-display" viewBox="0 0 16 16">
+  <path d="M8 1a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H9a1 1 0 0 1-1-1V1Zm1 13.5a.5.5 0 1 0 1 0 .5.5 0 0 0-1 0Zm2 0a.5.5 0 1 0 1 0 .5.5 0 0 0-1 0ZM9.5 1a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1h-5ZM9 3.5a.5.5 0 0 0 .5.5h5a.5.5 0 0 0 0-1h-5a.5.5 0 0 0-.5.5ZM1.5 2A1.5 1.5 0 0 0 0 3.5v7A1.5 1.5 0 0 0 1.5 12H6v2h-.5a.5.5 0 0 0 0 1H7v-4H1.5a.5.5 0 0 1-.5-.5v-7a.5.5 0 0 1 .5-.5H7V2H1.5Z"/>
+</svg>&ensp;Geeksaider</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="osebe.html">О себе</a></li>
+                <li><a href="sovet.html">Советы по выбору ПК</a></li>
+                <li><a href="zapis.html">Записаться на консультацию</a></li>
+            </ul>
+        </nav>
+	  </div>
+	</header>
+
+	<main>
+		<h1>Записаться на консультацию</h1>
+		<p>Заполните форму ниже, чтобы записаться на консультацию:</p><br><br>
+		<form action="send_email.php" method="post">
+  <input type="text" name="name" placeholder="Имя">
+  <input type="email" name="email" placeholder="Email">
+  <input type="tel" name="phone" placeholder="Телефон">
+  <input type="submit" value="Отправить">
+</form><br><br>
+	</main><br><br>
+
+
+	<footer>
+		<p>&copy; 2023 - Выбери ПК</p>
+	</footer>
+</body>
+</html>

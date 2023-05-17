@@ -1,0 +1,121 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+body {
+  background-image: url("body.jpg");
+  background-size: cover;
+}
+
+
+header {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+}
+nav li {
+  margin-right: 20px;
+}
+nav li:last-child {
+  margin-right: 0;
+}
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+nav a:hover {
+  color: #f1c40f;
+}
+
+/* Стили для main */
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0px;
+}
+h2 {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0px;
+  text-align: center
+}
+video {
+  width: 100%;
+  margin-top: 20px;
+}
+.download-button {
+  display: inline-block;
+  background-color: #f1c40f;
+  color: #fff;
+  padding: 10px 50px;
+  border-radius: 5px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.download-button:hover {
+  background-color: #e67e22;
+}
+
+footer {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+	
+}
+h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 40px;
+}
+nav ul li a {
+  background-color: #fff;
+  box-shadow: 0 2px 0 rgba(0,0,0,0.2), 0 4px 10px rgba(0,0,0,0.1);
+  color: #333;
+  display: inline-block;
+  font-size: 14px;
+  margin: 0 10px;
+  padding: 12px 24px;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: all 0.3s ease-in-out;
+}
+
+nav ul li a:hover {
+  box-shadow: 0 2px 0 rgba(0,0,0,0.2), 0 8px 20px rgba(0,0,0,0.1);
+  transform: translateY(-2px);
+}
+nav ul li a {
+  background-color: #f8f8f8;
+  border-radius: 30px;
+  color: #333;
+  display: inline-block;
+  font-size: 14px;
+  margin: 0 10px;
+  padding: 12px 24px;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: all 0.3s ease-in-out;
+}
+
+nav ul li a:hover {
+  background: linear-gradient(to bottom, #fff 50%, #f8f8f8 50%);
+  background-size: 100% 200%;
+  transform: translateY(-5px);
+
